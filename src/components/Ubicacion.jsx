@@ -9,7 +9,11 @@ const Ubicacion = () => {
           <Form.Label className="text-star fs-3 fw-bold text-light">
             Ingresa tu Ciudad
           </Form.Label>
-          <Form.Control type="email" placeholder="Ingrese su ciudad y país" />
+          <Form.Control
+            type="email"
+            placeholder="Ingrese su ciudad y país"
+            className="p-3"
+          />
         </Form.Group>
       </Form>
     </section>

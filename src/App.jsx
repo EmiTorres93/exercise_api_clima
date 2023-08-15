@@ -11,7 +11,9 @@ function App() {
         <Ubicacion></Ubicacion>
       </Container>
       <footer className="footer text-center pt-3">
-        <p>&copy, Exercise_api_clima. Todos los derechos reservados</p>
+        <p className="fs-5">
+          &copy, Exercise_api_clima. Todos los derechos reservados
+        </p>
       </footer>
     </>
   );
