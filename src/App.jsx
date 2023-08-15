@@ -1,11 +1,15 @@
 import { Container } from "react-bootstrap";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Ubicacion from "./components/Ubicacion";
 
 function App() {
   return (
     <>
-      <Container className="mainPage"></Container>
+      <Container fluid className="mainPage">
+        <img src="/logo.jpg" width={650} alt="logo" className="m-5" />
+        <Ubicacion></Ubicacion>
+      </Container>
       <footer className="footer text-center pt-3">
         <p>&copy, Exercise_api_clima. Todos los derechos reservados</p>
       </footer>
